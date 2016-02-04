@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AA363FC1C63E83A0076C7BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA363FB1C63E83A0076C7BB /* main.m */; };
+		7AA363FF1C63E83A0076C7BB /* PREAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA363FE1C63E83A0076C7BB /* PREAppDelegate.m */; };
+		7AA364021C63E83A0076C7BB /* PRESignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA364011C63E83A0076C7BB /* PRESignInViewController.m */; };
+		7AA364051C63E83A0076C7BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA364031C63E83A0076C7BB /* Main.storyboard */; };
+		7AA364071C63E83A0076C7BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA364061C63E83A0076C7BB /* Assets.xcassets */; };
+		7AA3640A1C63E83A0076C7BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA364081C63E83A0076C7BB /* LaunchScreen.storyboard */; };
+		7AA364131C63EEEF0076C7BB /* PRESignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA364121C63EEEF0076C7BB /* PRESignUpViewController.m */; };
+		7AA364161C63EFCE0076C7BB /* UIColor+PREColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA364151C63EFCE0076C7BB /* UIColor+PREColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7AA363F71C63E83A0076C7BB /* Prefix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prefix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA363FB1C63E83A0076C7BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AA363FD1C63E83A0076C7BB /* PREAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PREAppDelegate.h; sourceTree = "<group>"; };
+		7AA363FE1C63E83A0076C7BB /* PREAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PREAppDelegate.m; sourceTree = "<group>"; };
+		7AA364001C63E83A0076C7BB /* PRESignInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRESignInViewController.h; sourceTree = "<group>"; };
+		7AA364011C63E83A0076C7BB /* PRESignInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRESignInViewController.m; sourceTree = "<group>"; };
+		7AA364041C63E83A0076C7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AA364061C63E83A0076C7BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AA364091C63E83A0076C7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AA3640B1C63E83A0076C7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA364111C63EEEF0076C7BB /* PRESignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRESignUpViewController.h; sourceTree = "<group>"; };
+		7AA364121C63EEEF0076C7BB /* PRESignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRESignUpViewController.m; sourceTree = "<group>"; };
+		7AA364141C63EFCE0076C7BB /* UIColor+PREColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PREColor.h"; sourceTree = "<group>"; };
+		7AA364151C63EFCE0076C7BB /* UIColor+PREColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PREColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AA363F41C63E83A0076C7BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AA363EE1C63E83A0076C7BB = {
+			isa = PBXGroup;
+			children = (
+				7AA363F91C63E83A0076C7BB /* Prefix */,
+				7AA363F81C63E83A0076C7BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AA363F81C63E83A0076C7BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AA363F71C63E83A0076C7BB /* Prefix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AA363F91C63E83A0076C7BB /* Prefix */ = {
+			isa = PBXGroup;
+			children = (
+				7AA363FD1C63E83A0076C7BB /* PREAppDelegate.h */,
+				7AA363FE1C63E83A0076C7BB /* PREAppDelegate.m */,
+				7AA364001C63E83A0076C7BB /* PRESignInViewController.h */,
+				7AA364011C63E83A0076C7BB /* PRESignInViewController.m */,
+				7AA364111C63EEEF0076C7BB /* PRESignUpViewController.h */,
+				7AA364121C63EEEF0076C7BB /* PRESignUpViewController.m */,
+				7AA364141C63EFCE0076C7BB /* UIColor+PREColor.h */,
+				7AA364151C63EFCE0076C7BB /* UIColor+PREColor.m */,
+				7AA364031C63E83A0076C7BB /* Main.storyboard */,
+				7AA364061C63E83A0076C7BB /* Assets.xcassets */,
+				7AA364081C63E83A0076C7BB /* LaunchScreen.storyboard */,
+				7AA3640B1C63E83A0076C7BB /* Info.plist */,
+				7AA363FA1C63E83A0076C7BB /* Supporting Files */,
+			);
+			path = Prefix;
+			sourceTree = "<group>";
+		};
+		7AA363FA1C63E83A0076C7BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AA363FB1C63E83A0076C7BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AA363F61C63E83A0076C7BB /* Prefix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA3640E1C63E83A0076C7BB /* Build configuration list for PBXNativeTarget "Prefix" */;
+			buildPhases = (
+				7AA363F31C63E83A0076C7BB /* Sources */,
+				7AA363F41C63E83A0076C7BB /* Frameworks */,
+				7AA363F51C63E83A0076C7BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prefix;
+			productName = Prefix;
+			productReference = 7AA363F71C63E83A0076C7BB /* Prefix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AA363EF1C63E83A0076C7BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PRE;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Gabriel Massana";
+				TargetAttributes = {
+					7AA363F61C63E83A0076C7BB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 7AA363F21C63E83A0076C7BB /* Build configuration list for PBXProject "Prefix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AA363EE1C63E83A0076C7BB;
+			productRefGroup = 7AA363F81C63E83A0076C7BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AA363F61C63E83A0076C7BB /* Prefix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AA363F51C63E83A0076C7BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA3640A1C63E83A0076C7BB /* LaunchScreen.storyboard in Resources */,
+				7AA364071C63E83A0076C7BB /* Assets.xcassets in Resources */,
+				7AA364051C63E83A0076C7BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AA363F31C63E83A0076C7BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA364131C63EEEF0076C7BB /* PRESignUpViewController.m in Sources */,
+				7AA364021C63E83A0076C7BB /* PRESignInViewController.m in Sources */,
+				7AA363FF1C63E83A0076C7BB /* PREAppDelegate.m in Sources */,
+				7AA364161C63EFCE0076C7BB /* UIColor+PREColor.m in Sources */,
+				7AA363FC1C63E83A0076C7BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7AA364031C63E83A0076C7BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA364041C63E83A0076C7BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AA364081C63E83A0076C7BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA364091C63E83A0076C7BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AA3640C1C63E83A0076C7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7AA3640D1C63E83A0076C7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AA3640F1C63E83A0076C7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Prefix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Massana.Prefix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7AA364101C63E83A0076C7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Prefix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Massana.Prefix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AA363F21C63E83A0076C7BB /* Build configuration list for PBXProject "Prefix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA3640C1C63E83A0076C7BB /* Debug */,
+				7AA3640D1C63E83A0076C7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA3640E1C63E83A0076C7BB /* Build configuration list for PBXNativeTarget "Prefix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA3640F1C63E83A0076C7BB /* Debug */,
+				7AA364101C63E83A0076C7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AA363EF1C63E83A0076C7BB /* Project object */;
+}
